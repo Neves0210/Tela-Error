@@ -8,5 +8,46 @@ body{
     background-image: url(assets/Background.png);
     background-repeat: no-repeat;
     background-size: cover ;
+    font-family: 'Outfit', sans-serif;;
+}
 
+.top{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    padding: 64px 50px;
+    margin: auto;
+}
+
+picture img num4{
+    width: 80px;
+    height: 105px;  
+}
+
+picture img gif{
+    width: 230px;
+    height: 230px;  
+}
+
+.col1 h1{
+    color: #d6d6f2;
+    font-family:'Outfit', sans-serif;
+    font-size: 40px;
+}
+.col1 h2{
+    color: #d6d6f2;
+    font-family:'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 300;   
+}
+
+.col1 button{
+    padding: 12px 24px;
+    gap: 8px;
+    border-radius: 999px;
+    background: #151557;
+}
+.col1 button p{
+    color: #E2E2F5;
+    font-family: 'Outfit' sans-serif;
 }
