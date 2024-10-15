@@ -6,11 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Página Não Encontrada</title>
 
     <link rel="stylesheet" href="style.css">
-
-    <script src="main.js" ></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
     <section class="top">
@@ -24,20 +23,24 @@
             </div>
             <br>
             <div class="buttons">
-                <button><p>Voltar</p></button>
-                <button><p>Ir Para Home</p></button>
+                <button class="button back-button" onclick="history.back()">
+                    Voltar
+                </button>
+                <button class="button home-button" onclick="window.location.href='/'">
+                    Ir Para Home
+                </button>
             </div>
         </div>
         <div class="col2 shadow">
-            <div class="num ">
-                <picture class="num4 ">
-                    <img class="num4" src="/assets/num4.svg">
+            <div class="num">
+                <picture class="num4">
+                    <img class="num4" src="/assets/num4.svg" alt="Número 4">
                 </picture>
-                <picture class=" gif ">
-                    <img class="gif " src="/assets/planet.gif">
+                <picture class="gif">
+                    <img class="gif" src="/assets/planet.gif" alt="Planeta animado">
                 </picture>
                 <picture class="num4">
-                    <img class="num4" src="/assets/num4.svg">
+                    <img class="num4" src="/assets/num4.svg" alt="Número 4">
                 </picture>
             </div>
         </div>
